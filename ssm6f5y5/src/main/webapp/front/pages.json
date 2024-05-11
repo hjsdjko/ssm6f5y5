@@ -1,0 +1,294 @@
+{
+    "easycom": {
+    	"^z-(.*)": "@zebra-ui/swiper/components/z-$1/z-$1.vue"
+    },
+	"pages": [{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarBackgroundColor": "#76C461",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "登录"
+		}
+	}, {
+		"path": "pages/register/register",
+		"style": {
+			"navigationBarBackgroundColor": "#76C461",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "注册"
+		}
+	}, {
+		"path": "pages/forget/forget",
+		"style": {
+			"navigationBarBackgroundColor": "#40AE36",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "忘记密码"
+		}
+	}, {
+		"path": "pages/center/center",
+		"style": {
+			"navigationBarBackgroundColor": "#76C460",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "我的"
+		}
+	}, {
+		"path": "pages/user-info/user-info",
+		"style": {
+			"navigationBarBackgroundColor": "#76C460",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "用户信息"
+		}
+	}
+	, {
+		"path": "pages/chat/chat",
+		"style": {
+			"navigationBarTitleText": "在线客服"
+		}
+	}
+	, {
+		"path": "pages/shop-recharge/buyvip-confirm",
+		"style": {
+			"navigationBarTitleText": "会员购买"
+		}
+	}, {
+		"path": "pages/shop-recharge/buyvip-result",
+		"style": {
+			"navigationBarTitleText": "会员购买"
+		}
+	}
+	, {
+		"path": "pages/shop-recharge/recharge",
+		"style": {
+			"navigationBarTitleText": "用户充值"
+		}
+	},{
+                "path": "pages/shop-recharge/pay-confirm",
+                "style": {
+                        "navigationBarTitleText": "选择充值方式"
+                }
+        }, {
+		"path": "pages/shop-cart/shop-cart",
+		"style": {
+			"navigationBarTitleText": "购物车"
+		}
+	}, {
+		"path": "pages/shop-order-confirm/shop-order-confirm",
+		"style": {
+			"navigationBarTitleText": "订单确认"
+		}
+	}, {
+		"path": "pages/shop-address/shop-address",
+		"style": {
+			"navigationBarTitleText": "我的地址"
+		}
+	}, {
+		"path": "pages/shop-address-detail/shop-address-detail",
+		"style": {
+			"navigationBarTitleText": "地址详情"
+		}
+	}, {
+		"path": "pages/shop-order/shop-order",
+		"style": {
+			"navigationBarTitleText": "我的订单"
+		}
+	}, {
+        "path": "pages/shop-order/logistics",
+        "style": {
+            "navigationBarTitleText": "物流信息"
+        }
+    }
+	, {
+		"path": "pages/news-detail/news-detail",
+		"style": {
+			"navigationBarBackgroundColor": "#76C460",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "资讯详情"
+		}
+	}
+	,{
+		"path": "pages/yonghu/list",
+		"style": {
+			"navigationBarBackgroundColor": "#75C460",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/yonghu/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#76C460",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/yonghu/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#76C460",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/shangjia/list",
+		"style": {
+			"navigationBarBackgroundColor": "#75C460",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/shangjia/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#76C460",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/shangjia/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#76C460",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/meishileixing/list",
+		"style": {
+			"navigationBarBackgroundColor": "#75C460",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/meishileixing/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#76C460",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/meishileixing/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#76C460",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/tesemeishi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#75C460",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/tesemeishi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#76C460",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/tesemeishi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#76C460",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/storeup/list",
+		"style": {
+			"navigationBarBackgroundColor": "#75C460",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/storeup/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#76C460",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/storeup/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#76C460",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/news/list",
+		"style": {
+			"navigationBarBackgroundColor": "#75C460",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/news/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#76C460",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/news/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#76C460",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/discusstesemeishi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#75C460",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/discusstesemeishi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#76C460",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/discusstesemeishi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#76C460",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	, {
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarBackgroundColor": "#40AE36",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "首页"
+		}
+	}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "校园订餐小程序",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#BBBBBB",
+		"selectedColor": "#40AE36",
+		"borderStyle": "white",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabs/index.png",
+				"selectedIconPath": "static/tabs/index1.png",
+				"text": "首页"
+			}
+			
+
+
+			,{
+			 	"pagePath": "pages/news/list",
+				"iconPath": "static/tabs/news.png",
+			 	"selectedIconPath": "static/tabs/news_act.png",
+				"text": "网站公告"
+			}
+
+
+
+
+
+            ,{
+                "pagePath": "pages/shop-cart/shop-cart",
+                "iconPath": "static/tabs/cart.png",
+                "selectedIconPath": "static/tabs/cart1.png",
+                "text": "购物车"
+            }
+			,{
+				"pagePath": "pages/center/center",
+				"iconPath": "static/tabs/mine.png",
+				"selectedIconPath": "static/tabs/mine1.png",
+				"text": "我的"
+			}
+		]
+	}
+}
